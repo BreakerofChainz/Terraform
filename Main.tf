@@ -30,7 +30,6 @@ resource "azurerm_network_security_group" "Web-App-SG-LB" {
 }
 
 
-
 resource "azurerm_virtual_network" "Web-App-VN" {
   name                = "Web-App-VN"
   location            = azurerm_resource_group.Web-App-1.location
